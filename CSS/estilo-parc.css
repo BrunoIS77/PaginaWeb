@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    background-image: url(../ASSESTS/mundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(0, 90, 163, 0.808);
+}
+#btn-menu{
+    display: none;
+ 
+}
+
+header label{
+    display: block;
+    width: 35px;
+    height: 30px;
+    padding: 10px;
+}
+
+header label:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.menu{
+    position: absolute;
+    background: rgba(45, 72, 228, 0.904);
+    width: 20%;
+    margin-left: -20%;
+}
+
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+header #redes{
+    flex-direction: row;
+}
+
+.menu li{
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(246, 250, 16);
+    text-decoration: none;
+}
+
+@media all {
+    #btn-menu:checked ~ .menu{
+        margin:0;
+
+    }
+}
+
+
+
+#title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.redes{
+    display: inline-block;
+    width: 30px;
+    padding: 9px;   
+}
+
+.redes:hover {
+    cursor: pointer;
+    background: rgba(0,0,0,0.3);
+}
+
+.correo{
+    margin-top: -30px;
+    width: 400px;
+    padding: 0px;
+    display: block;
+    float: right;
+}
+
+.correo:hover{
+    background: none;
+}
+
+main div{
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    height: 800px;
+}
+
+main div div{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    background: rgba(160, 94, 7, 0.3);
+
+}
+
+main div div ul{
+    margin: 0;
+    padding: 15px 60px;
+    list-style-position: inside;
+    display: block;
+    flex-direction: column;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+h2{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+div.contenido{
+    padding: 50px;
+}
+
+div#problematica{
+    margin-left: -280px;
+    margin-top: -200px;
+    padding: 15px 15px;
+    width: 270px;
+    height: 350px;
+    background: rgba(7, 160, 109, 0.3);
+
+}
+
+div#evolucion{
+    margin-right: -280px;
+    margin-top: -700px;
+    padding: 15px 15px;
+    width: 350px;
+    height: 390px;
+    background: rgba(145, 145, 200, 0.383);
+    border: solid  1px rgb(48, 33, 138);
+}
+
+div#buscar{
+    margin-right: -100px;
+    margin-top: 100px;
+    padding: 15px 15px;
+    width: 400px;
+    height: 100px;
+    background: rgba(0, 0, 82, 0.911);
+    border: solid  1px rgb(48, 33, 138);
+
+}
