@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 
 body{
@@ -16,8 +15,6 @@ header{
     width: 100%;
     background-color: rgba(0, 90, 163, 0.808);
     overflow: hidden;
-
-    
 }
 
 .left {
@@ -99,11 +96,11 @@ header label:hover {
     text-align: center;
 }
 
-.main--devices, .evolution {
+.main--devices{
     background: rgba(160, 94, 7, 0.3);
 }
 
-.main--devices  ul, .evolution  ul {
+.main--devices  ul{
     margin: 0;
     padding: 15px 60px;
     list-style-position: inside;
